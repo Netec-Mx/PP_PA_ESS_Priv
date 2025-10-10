@@ -1,4 +1,4 @@
-# Nombre del laboratorio 
+# Ejercicios de análisis de procesos manuales que se pueden automatizar
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
