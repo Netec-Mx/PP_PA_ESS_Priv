@@ -42,8 +42,8 @@ A continuación, se plantearán cinco procesos; analizarás cuáles pueden ser a
 
 **Paso 3.** Marca tu respuesta.
 Escribe al lado de cada escenario si consideras que:  
-- *Sí, es automatizable*  
-- *No, no es automatizable*
+- Sí, es automatizable. 
+- No, no es automatizable.
 
 **Paso 4.** Revisa la respuesta correcta
 
@@ -139,5 +139,6 @@ Valida cuál ***template*** usarías para los procesos de estudio en este labora
 Finalmente, deberías ver el despliegue de la plantilla que escogiste y los conectores que están involucrados para el _trigger_ y las acciones. 
 
 ![Resultado](../images/6Lab11.png)
+
 
 
