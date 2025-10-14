@@ -30,7 +30,7 @@ Cada uno de estos laboratorios están diseñados para ofrecerte una experiencia 
 - **Descripción**: Desarrollar apps que permitan a los usuarios cargar datos, consultar información y disparar aprobaciones de manera simple e intuitiva. Exponer flujos de aprobación y carga de archivos dentro de la app para centralizar la operación en una sola interfaz, evitando el uso de múltiples plataformas.
 - ⏱️ **Duración estimada**: 60 min.
 
-### [Práctica 3.Gobernanza y ciclo de vida en Power Platform](./Capítulo3/ProyectoFinal.md)
+### [Práctica 3. Gobernanza y ciclo de vida en Power Platform](./Capítulo3/ProyectoFinal.md)
 - **Descripción**: Definir políticas de acceso, roles y permisos para garantizar que solo usuarios autorizados ejecuten, modifiquen o administren flujos y aplicaciones. Empaquetar las soluciones en entornos de desarrollo, pruebas y producción, aplicando supervisión y monitoreo continuo para prevenir riesgos operativos.
 - ⏱️**Duración estimada**: 30 min.
 
@@ -43,6 +43,7 @@ Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](
 ---
 
 ¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
+
 
 
 
