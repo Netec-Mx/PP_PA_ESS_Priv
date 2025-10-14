@@ -1,4 +1,4 @@
-<img width="2495" height="220" alt="image" src="https://github.com/user-attachments/assets/a43b95dd-5498-4f72-b349-27fe1c30e6dd" /><img src="images/neteclogo.png" alt="logo" width="300"/>
+<img src="images/neteclogo.png" alt="logo" width="300"/>
 
 # Power Platform y Power Automate
 
@@ -30,9 +30,10 @@ Cada uno de estos laboratorios están diseñados para ofrecerte una experiencia 
 - **Descripción**: Desarrollar apps que permitan a los usuarios cargar datos, consultar información y disparar aprobaciones de manera simple e intuitiva. Exponer flujos de aprobación y carga de archivos dentro de la app para centralizar la operación en una sola interfaz, evitando el uso de múltiples plataformas.
 - ⏱️ **Duración estimada**: 60 min.
 
-### [Práctica 3. Gobernanza y ciclo de vida en Power Platform](./Capítulo3/ProyectoFinal.md)
+### [Práctica 3.Gobernanza y ciclo de vida en Power Platform](./Capítulo3/ProyectoFinal.md)
 - **Descripción**: Definir políticas de acceso, roles y permisos para garantizar que solo usuarios autorizados ejecuten, modifiquen o administren flujos y aplicaciones. Empaquetar las soluciones en entornos de desarrollo, pruebas y producción, aplicando supervisión y monitoreo continuo para prevenir riesgos operativos.
 - ⏱️**Duración estimada**: 30 min.
+
 ---
 
 ## 📬 **Contacto y más información**
@@ -42,5 +43,6 @@ Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](
 ---
 
 ¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
+
 
 
