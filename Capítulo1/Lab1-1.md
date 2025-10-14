@@ -5,7 +5,7 @@ Al finalizar la práctica, serás capaz de:
 - Identificar los procesos manuales que pueden automatizarse.
 - Identificar los tipos de flujos que deberán usarse para cada caso de uso.
 - Encontrar las plantillas adecuadas para cada situación.
-- 
+
 ## Duración aproximada
 - 30 minutos.
 
@@ -139,4 +139,5 @@ Valida cuál ***template*** usarías para los procesos de estudio en este labora
 Finalmente, deberías ver el despliegue de la plantilla que escogiste y los conectores que están involucrados para el _trigger_ y las acciones. 
 
 ![Resultado](../images/6Lab11.png)
+
 
