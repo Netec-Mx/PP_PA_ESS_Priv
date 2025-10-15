@@ -19,7 +19,7 @@ Al finalizar la práctica, serás capaz de:
 
 En Power Automate es posible crear flujos de manera flexible: desde construirlos completamente desde cero, definiendo paso a paso los conectores, desencadenadores y acciones, hasta aprovechar plantillas predefinidas que aceleran el desarrollo y permiten iniciar un flujo a partir de aplicaciones como Power Apps, facilitando la integración con otros servicios de Microsoft 365. 
 
-En este laboratorio, aprenderás a conocer la interfaz de Power Automate, crear un flujo básico desde cero y utilizar una plantilla para diseñar un flujo de aprobación que se pueda ejecutar desde una aplicación Canvas en Power Apps, conectando ambos entornos de manera práctica.
+En este laboratorio, aprenderás a usar la interfaz de Power Automate, crear un flujo básico desde cero y utilizar una plantilla para diseñar un flujo de aprobación que se pueda ejecutar desde una aplicación Canvas en Power Apps, conectando ambos entornos de manera práctica.
 
 ### Tarea 1. Crear un flujo de Power Automate desde cero
 
@@ -46,8 +46,7 @@ Agrega los siguientes datos:
 - **Choose your flow's trigger:** `When a new email arrives (V3)` .
 
 
-> [!NOTE]
-> Asegúrate elegir el trigger del conector Office 365 Outlook, en lugar de Outlook.com
+> 💡 Nota: Asegúrate elegir el trigger del conector Office 365 Outlook, en lugar de Outlook.com
 
 Haz clic en el botón **Create**.
 
@@ -56,7 +55,7 @@ Haz clic en el botón **Create**.
 
 **Paso 4.** Ya que estás en el diseñador de flujos de Power Automate, inicia la creación de tu flujo.
 
-Te debe de aparecer el desencadenador, ahora agrega un nuevo paso. Haz clic en la cruz que está bajo el recuadro del conector desencadenador. En la ventana emergente, filtra por la acción ***Apply to Each*** del conector ***Control*** y haz clic sobre este. 
+Te debe de aparecer el desencadenador, ahora agrega un nuevo paso. Haz clic en el ícono de la cruz que está bajo el recuadro del conector desencadenador. En la ventana emergente, filtra por la acción ***Apply to Each*** del conector ***Control*** y haz clic sobre este. 
 
 ![LabImage4](../images/4Lab12.png)
 
@@ -68,7 +67,7 @@ Te debe de aparecer el desencadenador, ahora agrega un nuevo paso. Haz clic en l
 
 
 
-**Paso 6.** Haz clic en la cruz que está en el centro de la acción ***Apply to each*** del lienzo, en la ventana que se abre, busca la acción ***create file*** del conector ***One Drive for Business*** y haz clic en ella.
+**Paso 6.** Haz clic en el ícono de la cruz que está en el centro de la acción ***Apply to each*** del lienzo, en la ventana que se abre, busca la acción ***create file*** del conector ***One Drive for Business*** y haz clic en ella.
 
 ![LabImage5](../images/5Lab12.png)
 
@@ -127,7 +126,7 @@ Abre el navegador e ingresa a [Power Apps](https://make.powerapps.com) con las c
 
 
 
-**Paso 3.** Selecciona la opción ***Phone size*** y espera que abra el Power Apps Studio, una vez adentro, cierra el mensaje de bienvenida.
+**Paso 3.** Selecciona la opción ***Phone size*** y espera que abra el Power Apps Studio, una vez dentro, cierra el mensaje de bienvenida.
 
 ![LabImage1](../images/14Lab12.png)
 
@@ -148,7 +147,7 @@ Organiza la ubicación y el tamaño de los componentes de tal manera que se vean
 
 **Paso 5.** Modifica las _Etiquetas de texto_ de la siguiente manera.
 
-* A la de la parte superior, cámbiale el texto a: `Aplicación de aprobación`, el _Espesor de la fuenta_ a _Negrita_ y la _Alineación de texto_ a _Alinear al centro_. 
+* A la de la parte superior, cámbiale el texto a: `Aplicación de aprobación`, el _Espesor de la fuente_ a _Negrita_ y la _Alineación de texto_ a _Alinear al centro_. 
 
 ![LabImage1](../images/16Lab12.png)
 
@@ -188,13 +187,13 @@ Dentro de la función están los siguientes datos como parámetros en el orden c
 2. Caja de texto donde ingresarás el correo de quien aprobará. 
 3. Caja de texto donde ingresarás la solicitud***
 
-**Importante:** valida que los nombres de las cajas de texto coincidan, de lo contrario, tu flujo fallará. 
+**Importante:** valida que los nombres de las cajas de texto coincidan con los utilizados en la función, de lo contrario, el flujo fallará. 
 
 ![LabImage1](../images/20Lab12.png)
 
 
 
-**Paso 9.** Una vez verificados todos los datos de tu aplicación, procede a probarla; para ello, primero guárdala (da clic en el botón del costado superior derecho) y asígnale el nombre: `Paorbación App`. Luego haz clic en el botón triangular que se encuentra al lado izquierdo del botón de guardar. 
+**Paso 9.** Una vez verificados todos los datos de tu aplicación, procede a probarla; para ello, primero guárdala (da clic en el botón del costado superior derecho) y asígnale el nombre: `Aprobación App`. Luego haz clic en el botón triangular que se encuentra al lado izquierdo del botón de guardar. 
 
 ![LabImage1](../images/21Lab12.png)
 
@@ -240,4 +239,5 @@ Deberías ver la ejecución de tu flujo con la cantidad de tiempo y el estado **
 
 
 ![Resultado](../images/26Lab12.png)
+
 
