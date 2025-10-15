@@ -26,7 +26,7 @@ Abre el navegador e ingresa a [Power Apps](https://make.powerapps.com) `https://
 ![LabImage1](../images/12Lab12.png)
 
 
-**Paso 2.** Una vez hayas ingresado, debes seleccionar la opción ***Tables*** del menú izquiero; en la sección ***Tables*** haz clic en ***Get started with Copilot***.
+**Paso 2.** Una vez hayas ingresado, debes seleccionar la opción ***Tables*** del menú izquierdo; en la sección ***Tables*** haz clic en ***Get started with Copilot***.
 
 ![LabImage2](../images/1Lab21.png)
 
@@ -49,7 +49,7 @@ Cuando estés satisfecho, haz clic en el botón **Save and exit** del costado su
 
 ### Tarea 2. Crea tu aplicación de lienzo a partir de un origen de datos
 
-**Paso 1.** Haz regresado a la página principal. En el menú de la izquierda, selecciona la opción ***Create*** y luego en la sección **Create your apps** haz clic en ***Start with data***.
+**Paso 1.** Has regresado a la página principal. En el menú de la izquierda, selecciona la opción ***Create*** y luego en la sección **Create your apps** haz clic en ***Start with data***.
 
 ![LabImage2](../images/4Lab21.png)
 
@@ -58,12 +58,12 @@ Cuando estés satisfecho, haz clic en el botón **Save and exit** del costado su
 
 ![LabImage2](../images/5Lab21.png)
 
-**Paso 3.** En esta nueva ventana, busca la tabla que creaste en los pasos previos. Haz clic en la pestaña ***Custom*** que esté en el medio y, luego, filtra por el nomnbre que le diste a la tabla: `incidencia`. Seleccionala y haz clic en el botón Create app del costado inferior derecho. 
+**Paso 3.** En esta nueva ventana, busca la tabla que creaste en los pasos previos. Haz clic en la pestaña ***Custom*** que esté en el medio y, luego, filtra por el nombre que le diste a la tabla: `incidencia`. Seleccionala y haz clic en el botón Create app del costado inferior derecho. 
 
 ![LabImage2](../images/6Lab21.png)
 
 
-**Paso 4.** Cuando creas una aplicación canvas en Power Apps a partir de un origen de datos, como Dataverse o una tabla en Excel, la plataforma genera automáticamente una aplicación totalmente funcional. Esto significa que no es necesario comenzar desde cero ni configurar cada acción manualmente, ya que la aplicación ya incorpora las operaciones básicas que todo usuario necesita: agregar registros nuevos, modificar los existentes, visualizar la información en detalle y eliminar datos directamente en el origen conectado. De esta manera, se obtiene una solución lista para usarse desde el primer momento, lo que acelera considerablemente el desarrollo.
+**Paso 4.** Cuando creas una aplicación canvas en Power Apps a partir de un origen de datos, como Dataverse o una tabla en Excel, la plataforma genera automáticamente una aplicación totalmente funcional. Esto permite evitar comenzar desde cero y configurar cada acción manualmente, ya que la aplicación ya incorpora las operaciones básicas que todo usuario necesita: agregar registros nuevos, modificar los existentes, visualizar la información en detalle y eliminar datos directamente en el origen conectado. De esta manera, se obtiene una solución lista para usarse desde el primer momento, lo que acelera considerablemente el desarrollo.
 
 Además, estas aplicaciones no solo permiten interactuar con los datos de forma inmediata, sino que también proporcionan una experiencia organizada y amigable para el usuario. Los formularios y galerías generados automáticamente muestran la información con un diseño básico, pero funcional y te ofrecen la posibilidad de personalizar la interfaz según las necesidades de tu negocio. Así, puedes adaptar colores, botones y la navegación, sin perder la funcionalidad estándar que ya incluye la aplicación.
 
@@ -82,7 +82,7 @@ Finalmente, haz clic en el botón **Ejecutar** que está representado por el tri
 
 ### Tarea 2. Actualiza tu aplicación agregando inteligencia artificial
 
-**Paso 1.** Una vez en la ventana de edición, agrega inteligencia artificial para analizar el sentimiento de quien escribió la incidencia. Recuerda que una incidencia puede ser positiva o negativa, por lo que necesitas identificarlo rápidamente.
+**Paso 1.** Una vez en la ventana de edición, agrega funciones de inteligencia artificial para analizar el sentimiento de quien escribió la incidencia. Recuerda que una incidencia puede ser positiva o negativa, por lo que necesitas identificarlo rápidamente.
 
 Para esto, haz clic en la opción **Datos** el ***ícono waffle*** del costado izquierdo, verás que ya tienes como dato de origen la tabla de Dataverse que se creó en la primera tarea. Haz clic en **Agregar datos**, filtra por ***análisis*** y selecciona la opción **Análisis de sentimiento**. Verás que ahora se ha agregado como fuente de datos.
 
@@ -117,7 +117,7 @@ IfError(TextInputSentiment; Notify(FirstError.Message;NotificationType.Error))`
 > * **`Notify(FirstError.Message; NotificationType.Error)`**
 > Si hay un error, muestra una notificación en pantalla con el mensaje del primer error detectado. El tipo de notificación es de error, por lo que se muestra en rojo.
 
-**Paso 4.** Ahora, edita la propiedad ***Text*** de la etiqueta de texto que habías dejado en blanco, para que devuelva el nombre del sentimiento encontrado por el modelo de IA. Para ello, selecciona la etiqueta y agrega la siguiente función de Power Fx.
+**Paso 4.** Ahora, edita la propiedad ***Text*** de la etiqueta que dejaste en blanco, para que devuelva el nombre del sentimiento encontrado por el modelo de IA. Para ello, selecciona la etiqueta y agrega la siguiente función de Power Fx.
 
 **Power Fx** `TextInputSentiment.Name`
 
@@ -138,7 +138,7 @@ Valida el almacenamiento del valor de la variable. Ingresa a la sección ***{x}*
 
 ### Tarea 3. Crear una aplicación Model Driven
 
-**Paso 1.** Abre el navegador e ingresa a [Power Apps](https://make.powerapps.com) `https://make.powerapss.com` con las credenciales otorgadas por el instructor. Asegúrate de seleccionar el entorno **Dev One** en el costado superior derecho.
+**Paso 1.** Abre el navegador e ingresa a [Power Apps](https://make.powerapps.com) `https://make.powerapps.com` con las credenciales otorgadas por el instructor. Asegúrate de seleccionar el entorno **Dev One** en el costado superior derecho.
 
 ![LabImage1](../images/12Lab12.png)
 
@@ -170,7 +170,7 @@ Valida el almacenamiento del valor de la variable. Ingresa a la sección ***{x}*
 
 
 
-**Paso 7.** En la vista de **_Views_**, haz clic sobre la vista **_Active incidencias_**, la cual tomarás como base para crear tu propia vista. 
+**Paso 7.** En la vista de **_Views_**, haz clic sobre la vista **_Active Incidencias_**, la cual tomarás como base para crear tu propia vista. 
 
 ![LabImage1](../images/27Lab21.png)
 
@@ -309,7 +309,7 @@ Luego selecciona el botón **_+New solution_**.
 
 ![LabImage1](../images/17Lab21.png)
 
-**Pas 26.** En la ventana de creación del ***Publisher***, agrega los siguientes valores:
+**Paso 26.** En la ventana de creación del ***Publisher***, agrega los siguientes valores:
 
 * **Display Name:** ***Tu nombre***
 * **Name:** ***Tu nombre sin espacios***
@@ -325,7 +325,7 @@ Luego selecciona el botón **_+New solution_**.
 
 
 
-**Paso 28.** La solución es un contenedor lógico que empaquetará objetos de Power Platform.
+**Paso 28.** La solución es un contenedor lógico que empaquete objetos de Power Platform.
 
 ![LabImage1](../images/20Lab21.png)
 
@@ -473,5 +473,6 @@ Ingresa los siguientes datos:
 Debes ver la incidencia listada en la vista y la aplicación.
 
 ![Resultado](../images/70Lab21.png)
+
 
 
