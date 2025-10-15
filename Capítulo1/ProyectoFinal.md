@@ -15,13 +15,13 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 
 ### Tarea 1. Automatizar estas tareas para reducir tiempos, aumentar la trazabilidad y centralizar información en Dataverse y SharePoint
 
-**Paso 1.** Lista los procesos concretos a automatizar (ej.: aprobación de crédito menor a _x_, recepción de PO y consolidación en Excel, carga de anexos para reportes).
+**Paso 1.** Lista los procesos concretos a automatizar (por ejemplo: aprobación de crédito menor a _x_, recepción de PO y consolidación en Excel, carga de anexos para reportes).
 * **Resultado esperado:** tabla (Excel/Word) con 6–8 procesos y prioridad (Alta/Media/Baja).
 
 **Paso 2.** Mapea triggers y orígenes de datos por proceso: identifica si el disparador será “archivo en SharePoint”, “registro en Dataverse”, “botón en Canvas” o “programado”.
 * **Resultado esperado:** diagrama simple (imagen) con disparadores y destinos.
 
-**Paso 3.** Selecciona la o las plantillas en Power Automate que más se ajusten (ej.: “When a file is created in a folder” → “Start an approval”); anota qué modificaciones se necesitan.
+**Paso 3.** Selecciona la o las plantillas en Power Automate que más se ajusten (por ejemplo: “When a file is created in a folder” → “Start an approval”); anota qué modificaciones se necesitan.
 * **Resultado esperado:** lista de plantillas seleccionadas y cambios requeridos.
 
 **Paso 4.** Crea un flujo automatizado desde cero para la carga de archivos:
@@ -49,6 +49,6 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 **Paso 8.** Incluye el manejo de errores razonable (validaciones de entrada, condiciones para datos faltantes) y logging de fallos en una tabla de errores en Dataverse.
 * **Resultado esperado:** captura de la tabla de errores y ejemplo de registro.
 
-**Paso 8.** Empaqueta los flujos dentro de una solución para ALM (añade flows a la solución, define el _environment_ "variables" si aplica).
-* **Resultado esperado:** archivo .zip de la solución que incluya los flujos.
+**Paso 9.** Empaqueta los flujos dentro de una solución para ALM (añade flows a la solución, define el _environment_ "variables" si aplica).
+* **Resultado esperado:** archivo comprimido .zip que contenga los flujos de la solución.
 
