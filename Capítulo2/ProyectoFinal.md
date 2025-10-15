@@ -14,19 +14,19 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 
 ### Tarea 1. Con Power Apps, construir una interfaz amigable para captura (Canvas) y una app Model-Driven para la gestión centralizada y reporting, conectadas a Dataverse o SharePoint
 
-**Paso 1.** Define el modelo de datos mínimo en Dataverse: entidades como _Solicitud_, _Aprobación_, _Adjunto_, _Usuario_, _Log_. Define los campos clave (monto, tipo, fecha, estado, aprobador).
+**Paso 1.** Define el modelo de datos mínimo en Dataverse incluyendo entidades como _Solicitud_, _Aprobación_, _Adjunto_, _Usuario_, _Log_. Define los campos clave (monto, tipo, fecha, estado, aprobador).
 * **Resultado esperado:** diagrama ER simple o lista de tablas y campos.
 
 **Paso 2.** Crea la app Canvas (primer prototipo).
-* Crea la pantalla de inicio: pantalla de creación de la solicitud con formulario (campos obligatorios marcados).
-* Agrega el control para adjuntar archivos (guárdalos en SharePoint o en Dataverse como nota o _attachment_).
-* Añade el botón “Enviar” que llame al flujo de aprobación (usa Power Automate como conector desde Power Apps).
+* Crea la pantalla de inicio: pantalla de creación de la solicitud con un formulario que indique los campos obligatorios.
+* Agrega el control para adjuntar archivos. Guárdalos en SharePoint o en Dataverse como nota o _attachment_.
+* Añade el botón **Enviar** que llame al flujo de aprobación, usa Power Automate como conector desde Power Apps.
 * **Resultado esperado:** diagrama simple (imagen) con disparadores y destinos.
 
 **Paso 3.** Conecta y valida CRUD: configura conexiones a Dataverse, SharePoint o Excel y comprueba que _Crear_, _Leer_, _Actualizar_ y _Borrar_ funcionan desde la app.
 * **Resultado esperado:** breve video o secuencia de capturas demostrando CRUD.
 
-**Paso 4.** Refina la UX en Power Apps Studio: usa reglas (Visible, DisplayMode), valida lasentradas (IsBlank, IsNumeric) y optimiza la navegación.
+**Paso 4.** Refina la UX en Power Apps Studio: usa reglas (Visible, DisplayMode), valida las entradas (IsBlank, IsNumeric) y optimiza la navegación.
 * **Resultado esperado:** lista de cinco mejoras UX aplicadas y capturas.
 
 **Paso 5.** Implementa la integración con el flujo de aprobación.
@@ -45,9 +45,10 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 * Configura los procesos de negocio (_business process flows_) para guiar la gestión de aprobaciones.
 * **Resultado esperado:** capturas de vistas y _dashboard_ en la aplicación Model-Driven.
 
-**Paso 8.** Prueba el flujo completo: crea una solicitud en Canvas → invoca un flujo → registra una aprobación → visualiza en Model-Driven → genera una fila en elreporte consolidado.
+**Paso 8.** Prueba el flujo completo: crea una solicitud en Canvas → invoca un flujo → registra una aprobación → visualiza en Model-Driven → genera una fila en el reporte consolidado.
 * **Resultado esperado:** documento con pasos de prueba y evidencias (capturas).
 
 **Paso 9.** Exporta la Canvas app y la Model-Driven app dentro de la solución (agregar dependencias, environment variables) y exporta el archivo .zip de la solución.
-* **Resultado esperado:** .zip de solución + breve guía de instalación (1 página).
+* **Resultado esperado:** archivo comprimido .zip con la solución y una breve guía de instalación (1 página).
+
 
