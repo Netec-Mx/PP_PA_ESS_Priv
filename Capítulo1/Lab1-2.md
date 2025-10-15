@@ -46,7 +46,7 @@ Agrega los siguientes datos:
 - **Choose your flow's trigger:** `When a new email arrives (V3)` .
 
 
-> 💡 Nota: Asegúrate elegir el trigger del conector Office 365 Outlook, en lugar de Outlook.com
+> 💡 Nota. Asegúrate elegir el trigger del conector Office 365 Outlook, en lugar de Outlook.com
 
 Haz clic en el botón **Create**.
 
@@ -187,7 +187,7 @@ Dentro de la función están los siguientes datos como parámetros en el orden c
 2. Caja de texto donde ingresarás el correo de quien aprobará. 
 3. Caja de texto donde ingresarás la solicitud***
 
-**Importante:** valida que los nombres de las cajas de texto coincidan con los utilizados en la función, de lo contrario, el flujo fallará. 
+> **Importante:** valida que los nombres de las cajas de texto coincidan con los utilizados en la función, de lo contrario, el flujo fallará. 
 
 ![LabImage1](../images/20Lab12.png)
 
@@ -239,5 +239,6 @@ Deberías ver la ejecución de tu flujo con la cantidad de tiempo y el estado **
 
 
 ![Resultado](../images/26Lab12.png)
+
 
 
