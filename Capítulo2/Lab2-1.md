@@ -1,19 +1,18 @@
-# Creación de una app para gestión de oportunidades incidencias
+# Práctica 2.1. Creación de una app para gestión de oportunidades incidencias
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
-- Crear una aplicación de lienzo desde un origen de datos
-- Actualizar la aplicación desde el Power Apps Studio
+- Crear una aplicación de lienzo desde un origen de datos.
+- Actualizar la aplicación desde el Power Apps Studio.
 - Integrar IA a la aplicación.
 - Crear una solución y una aplicación Model-driven.
 
-## Diagrama del laboratorio 
-El siguiente diagrama resume visualmente lo que realizarás a lo largo de la siguiente práctica. 
+## Duración aproximada
+- 60 minutos.
+
+## Objetivo visual# 
 
 ![diagrama1](../images/InitLab21.png)
-
-## Duración aproximada:
-- 60 minutos.
 
 ## Instrucciones 
 En Power Apps, las aplicaciones de lienzo (canvas apps) pueden crearse a partir de diferentes orígenes de datos, como Dataverse o Excel, lo que permite diseñar experiencias personalizadas según las necesidades del negocio. En Dataverse, además, se pueden crear tablas de manera asistida utilizando Copilot, lo que agiliza la estructuración de la información. Asimismo, es posible complementar estas aplicaciones con una interfaz unificada a través de las aplicaciones basadas en modelos (model-driven apps), logrando una integración más robusta entre datos y procesos.
@@ -503,3 +502,4 @@ Luego haz clic en el botón **Add**
 Deberías ver la incidencia listada en la vista ty aplicación.
 
 ![Resultado](../images/70Lab21.png)
+
