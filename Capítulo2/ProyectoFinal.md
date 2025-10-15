@@ -1,4 +1,4 @@
-# Práctica 2.1. Proyecto final: Power Apps
+# Práctica 2.2. Proyecto final: Power Apps
 
 ## Objetivos
 Al finalizar la práctica, serás capaz de:
@@ -50,5 +50,6 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 
 **Paso 9.** Exporta la Canvas app y la Model-Driven app dentro de la solución (agregar dependencias, environment variables) y exporta el archivo .zip de la solución.
 * **Resultado esperado:** archivo comprimido .zip con la solución y una breve guía de instalación (1 página).
+
 
 
