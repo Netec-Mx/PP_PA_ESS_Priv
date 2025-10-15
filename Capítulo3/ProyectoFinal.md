@@ -1,30 +1,30 @@
-# Proyecto Final - Gobernanza en Power Platform
+# Práctica 3. Proyecto final: gobernanza en Power Platform
 
-El Banco Futuro busca modernizar sus procesos internos relacionados con la gestión de solicitudes de clientes y empleados, la aprobación de créditos y gastos, y la gestión de accesos a aplicaciones internas. Actualmente, muchos de estos procesos se realizan manualmente con archivos de Excel, correos electrónicos y aprobaciones informales, lo que genera retrasos, errores y falta de trazabilidad.
+## Objetivos
+Al finalizar la práctica, serás capaz de:
+- Definir políticas de acceso, roles y permisos para garantizar que solo usuarios autorizados ejecuten, modifiquen o administren flujos y aplicaciones. 
+- Empaquetar las soluciones en entornos de desarrollo, pruebas y producción, aplicando supervisión y monitoreo continuo para prevenir riesgos operativos.
 
-
-## Duración aproximada:
+## Duración aproximada
 - 30 minutos.
 
+## Instrucciones
+El Banco Futuro busca modernizar sus procesos internos relacionados con la gestión de solicitudes de clientes y empleados, la aprobación de créditos y gastos y la gestión de accesos a aplicaciones internas. Actualmente, muchos de estos procesos se realizan manualmente con archivos de Excel, correos electrónicos y aprobaciones informales, lo que genera retrasos, errores y falta de trazabilidad. Sin gobernanza, el banco corre riesgos: fugas de datos por conectores inseguros, entornos no controlados y falta de trazabilidad. 
 
-## Desarrollo del proyecto
+### Tarea 1. Configurar entornos, políticas DLP, roles y _pipelines_ para asegurar control y permitir despliegues ordenados
 
-Sin gobernanza el banco corre riesgos: fugas de datos por conectores inseguros, entornos no controlados y falta de trazabilidad. En esta sección se configurarán entornos, políticas DLP, roles y pipelines para asegurar control y permitir despliegues ordenados.
+**Paso 1.** Revisa y documenta los entornos disponibles: Dev, Test, Prod. Anota quién es responsable de cada uno.
+* **Resultado esperado:** tabla con entornos, propósito y responsables.
 
-**Pasos que debes realizar**
+**Paso 2.** Configura políticas DLP (Data Loss Prevention).
+* Define los grupos de conectores prohibidos y restringidos para el banco (por ejemplo: evitar conectores personales o no soportados).
+* Aplica las políticas a entornos críticos (_Test/Prod_).
+* **Resultado esperado:** captura de la política DLP aplicada.
 
-1. Revisar y documentar los entornos disponibles: Dev, Test, Prod. Anotar quién es responsable de cada uno.
-* **Entregable:** tabla con entornos, propósito y responsables.
+**Paso 3.** Crea un rol de seguridad en Dataverse con permisos mínimos necesarios para un aprobador y otro para un administrador (crear seguridad por capas).
+* Define los permisos CRUD por entidad (Solicitud: crear o leer; Aprobación: leer o actualizar).
+* **Resultado esperado:** captura del rol y la lista de permisos asignados.
 
-2. Configurar políticas DLP (Data Loss Prevention):
-* Definir grupos de conectores prohibidos/restringidos para el banco (por ejemplo: evitar conectores personales o no soportados).
-* Aplicar políticas a entornos críticos (Test/Prod).
-* **Entregable:** captura de la política DLP aplicada.
-
-3. Crear un rol de seguridad en Dataverse con permisos mínimos necesarios para un aprobador y otro para un administrador (crear seguridad por capas).
-* Definir permisos CRUD por entidad (Solicitud: crear/leer; Aprobación: leer/actualizar).
-* **Entregable:** captura del rol y la lista de permisos asignados.
-
-4. Monitorear salud y uso: revisar paneles de capacidad, ejecuciones de flows con mayor latencia o fallas frecuentes y consumo de capacidad de Dataverse.
-* Registrar métricas clave: número de ejecuciones/día, promedio de latencia, número de aprobaciones procesadas.
-* **Entregable:** captura de métricas y un pequeño análisis (1 párrafo).
+**Paso 4.** Monitorea la salud y el uso: revisa los paneles de capacidad, las ejecuciones de flows con mayor latencia o fallas frecuentes y el consumo de capacidad de Dataverse.
+* Registra las métricas clave: número de ejecuciones por día, promedio de latencia, número de aprobaciones procesadas.
+* **Resultado esperado:** captura de métricas y un pequeño análisis (1 párrafo).
