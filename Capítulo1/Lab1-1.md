@@ -77,7 +77,7 @@ Elaborar y actualizar un plan de continuidad requiere análisis estratégico, vi
 
 **Paso 3.** Para ayudar a identificar el tipo de flujo, usarás Copilot. Power Platform te permite usar Copilot con la integración en las interfaces de Power Automate, Power Apps y Copilot Studio (Antes Power Virtual Agents). 
 
-Para esto, prueba los siguientes prompts y espera la sugerencia de Copilot. 
+Para esto, prueba los siguientes _prompts_ y espera la sugerencia de Copilot. 
 
 Haz clic en la caja de texto del medio donde te solicita describir la automatización. 
 
@@ -96,9 +96,9 @@ Deberías recibir una o varias sugerencias de flujos. Si recibes varias sugerenc
 **Paso 5.** ¿Qué tipo de flujo identificaste? 
 Así es, como las acciones se desencadenarán a partir de un evento externo, se considera un ***flujo automatizado***.
 
-**Paso 6.** Descarta los cambios, por el momento no vas crear el flujo. 
+**Paso 6.** Descarta los cambios, por el momento no crearás el flujo. 
 
-**Paso 7.** Repite los pasos del ***4 al 6***, utilizando los siguientes prompts para definir el tipo de flujo para los dos procesos restantes.
+**Paso 7.** Repite los pasos del ***4 al 6***, utilizando los siguientes _prompts_ para definir el tipo de flujo para los dos procesos restantes.
 
 **Aprobación de compras (PECOS)**
 
@@ -139,6 +139,7 @@ Valida cuál ***template*** usarías para los procesos de estudio en este labora
 Finalmente, deberías ver el despliegue de la plantilla que escogiste y los conectores que están involucrados para el _trigger_ y las acciones. 
 
 ![Resultado](../images/6Lab11.png)
+
 
 
 
