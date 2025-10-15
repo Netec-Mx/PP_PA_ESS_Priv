@@ -46,7 +46,7 @@ Agrega los siguientes datos:
 - **Choose your flow's trigger:** `When a new email arrives (V3)` .
 
 
-> 💡 Nota. Asegúrate elegir el trigger del conector Office 365 Outlook, en lugar de Outlook.com
+> 💡 Nota. Asegúrate de elegir el trigger del conector Office 365 Outlook, en lugar de Outlook.com
 
 Haz clic en el botón **Create**.
 
@@ -239,6 +239,7 @@ Deberías ver la ejecución de tu flujo con la cantidad de tiempo y el estado **
 
 
 ![Resultado](../images/26Lab12.png)
+
 
 
 
