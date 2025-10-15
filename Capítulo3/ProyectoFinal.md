@@ -25,6 +25,7 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 * Define los permisos CRUD por entidad (Solicitud: crear o leer; Aprobación: leer o actualizar).
 * **Resultado esperado:** captura del rol y la lista de permisos asignados.
 
-**Paso 4.** Monitorea la salud y el uso: revisa los paneles de capacidad, las ejecuciones de flows con mayor latencia o fallas frecuentes y el consumo de capacidad de Dataverse.
-* Registra las métricas clave: número de ejecuciones por día, promedio de latencia, número de aprobaciones procesadas.
+**Paso 4.** Monitorea la salud y el uso: revisa los paneles de capacidad, las ejecuciones de flujos con mayor latencia o fallas frecuentes y el consumo de capacidad de Dataverse.
+* Registra las métricas clave: número de ejecuciones por día, promedio de latencia, total de aprobaciones procesadas.
 * **Resultado esperado:** captura de métricas y un pequeño análisis (1 párrafo).
+
