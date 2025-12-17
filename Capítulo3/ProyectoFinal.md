@@ -1,4 +1,4 @@
-# Práctica 3. Proyecto final: gobernanza en Power Platform
+# Práctica 3. Gobernanza en Power Platform
 
 ## Objetivos
 Al finalizar la práctica, serás capaz de:
@@ -28,4 +28,5 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 **Paso 4.** Monitorea la salud y el uso: revisa los paneles de capacidad, las ejecuciones de flujos con mayor latencia o fallas frecuentes y el consumo de capacidad de Dataverse.
 * Registra las métricas clave: número de ejecuciones por día, promedio de latencia, total de aprobaciones procesadas.
 * **Resultado esperado:** captura de métricas y un pequeño análisis (1 párrafo).
+
 
