@@ -1,4 +1,4 @@
-# Práctica 1.3. Proyecto final: Power Automate
+# Práctica 1.3. Power Automate
 
 ## Objetivos
 Al finalizar la práctica, serás capaz de:
@@ -51,4 +51,5 @@ El Banco Futuro busca modernizar sus procesos internos relacionados con la gesti
 
 **Paso 9.** Empaqueta los flujos dentro de una solución para ALM (añade flows a la solución, define el _environment_ "variables" si aplica).
 * **Resultado esperado:** archivo comprimido .zip que contenga los flujos de la solución.
+
 
