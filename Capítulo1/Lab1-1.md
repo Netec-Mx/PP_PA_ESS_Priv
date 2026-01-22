@@ -31,7 +31,7 @@ A continuación, se plantearán cinco procesos; analizarás cuáles pueden ser a
 
 4. Gestión de accesos (agregar miembros a grupos de red): el área de TI recibe solicitudes de acceso por correo y agrega usuarios manualmente a grupos de Active Directory.
 
-5. Registro de solicitudes de proyectos: los usuarios envían un correo o llenan un archivo de Excel para registrar proyectos nuevos.
+5. Registro de solicitudes: los usuarios envían un correo o llenan un archivo de Excel para registrar proyectos nuevos.
 
 **Paso 2.** Para cada escenario, reflexiona sobre estas preguntas.
 - ¿El proceso es **repetitivo** u ocurre solo de forma ocasional?  
@@ -139,6 +139,7 @@ Valida cuál ***template*** usarías para los procesos de estudio en este labora
 Finalmente, deberías ver el despliegue de la plantilla que escogiste y los conectores que están involucrados para el _trigger_ y las acciones. 
 
 ![Resultado](../images/6Lab11.png)
+
 
 
 
