@@ -18,7 +18,7 @@ Cada uno de estos laboratorios están diseñados para ofrecerte una experiencia 
 - **Descripción**: .Conocer la interfaz de Power Automate, crear un flujo básico desde cero, crear un flujo de aprobación desde una plantilla y ejecutarla desde una aplicación Canvas de Power Apps. 
 - ⏱️ **Duración estimada**: 40 min.
 
-### [Práctica 1.3. Proyecto final: Power Automate](./Capítulo1/ProyectoFinal.md)
+### [Práctica 1.3.Power Automate](./Capítulo1/ProyectoFinal.md)
 - **Descripción**: Crear flujos que reduzcan la carga operativa en la recepción de archivos, consolidación de reportes y aprobación de solicitudes. Conectar los flujos con Power Apps y Dataverse, garantizando trazabilidad y registro de errores en una solución empaquetada para despliegues controlados.
 - ⏱️**Duración estimada**: 60 min.
 
@@ -26,7 +26,7 @@ Cada uno de estos laboratorios están diseñados para ofrecerte una experiencia 
 - **Descripción**: Crear una aplicación de lienzo desde un origen de datos. Actualizar la aplicación desde el Power Apps Studio. Integrar IA a la aplicación. Crear una solución y una aplicación Model-Driven.
 - ⏱️ **Duración estimada**: 60 min.
 
-### [Práctica 2.2. Proyecto final: Power Apps](./Capítulo2/ProyectoFinal.md)
+### [Práctica 2.2.Power Apps](./Capítulo2/ProyectoFinal.md)
 - **Descripción**: Desarrollar apps que permitan a los usuarios cargar datos, consultar información y disparar aprobaciones de manera simple e intuitiva. Exponer flujos de aprobación y carga de archivos dentro de la app para centralizar la operación en una sola interfaz, evitando el uso de múltiples plataformas.
 - ⏱️ **Duración estimada**: 60 min.
 
@@ -43,6 +43,7 @@ Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](
 ---
 
 ¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
+
 
 
 
